@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Information</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: white;
+      font-family: 'Baloo Da 2', sans-serif;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    .header {
+      width: 375px;
+      height: 81px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #FFE7AD;
+    }
+    .title {
+      width: 187px;
+      height: 15px;
+      position: absolute;
+      top: 52px;
+      left: 98px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #FF9D10;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    .label {
+      position: absolute;
+      color: black;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18.2px;
+    }
+    .input-bg {
+      position: absolute;
+      background: #FFDBA8;
+      border-radius: 50px;
+    }
+    .input-fg {
+      position: absolute;
+      background: rgba(255, 247, 233, 0.56);
+      border-radius: 50px;
+    }
+    .input-placeholder {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: rgba(119, 112, 103, 0.67);
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18.2px;
+    }
+    .note {
+      position: absolute;
+      color: rgba(0, 0, 0, 0.3);
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18.2px;
+    }
+    .button {
+      position: absolute;
+      width: 321px;
+      height: 36px;
+      background: #FFC14D;
+      border-radius: 20px;
+    }
+    .button-text {
+      position: absolute;
+      text-align: center;
+      color: #B16700;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22.4px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header"></div>
+    <div class="title">Personal information</div>
+
+    <div class="input-bg" style="top:130px; left:15px; width:340px; height:30px;"></div>
+    <div class="input-fg" style="top:134px; left:23px; width:325px; height:22px;"></div>
+    <div class="input-placeholder" style="top:136px; left:29px;">Write your password.</div>
+    <div class="label" style="top:112px; left:23px;">Password</div>
+
+    <div class="input-bg" style="top:181px; left:15px; width:340px; height:30px;"></div>
+    <div class="input-fg" style="top:185px; left:23px; width:325px; height:22px;"></div>
+    <div class="input-placeholder" style="top:187px; left:29px;">Write your password.</div>
+    <div class="label" style="top:163px; left:23px;">Confirm password</div>
+
+    <div class="input-bg" style="top:232px; left:15px; width:340px; height:30px;"></div>
+    <div class="note" style="top:238px; left:29px; width:246px;">Enable to allow log-in with Touch ID / Face ID</div>
+    <div class="label" style="top:214px; left:23px; width:259px;">Login with Touch ID / Face ID</div>
+
+    <div class="button" style="top:749px; left:29px;"></div>
+    <div class="button-text" style="top:758px; left:103px; width:172px; height:21px;">Next</div>
+  </div>
+</body>
+</html>

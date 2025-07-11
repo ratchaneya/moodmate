@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Information</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Baloo Da 2', cursive;
+      background: white;
+    }
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 375px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+    }
+    .header {
+      background: #FFE7AD;
+      height: 81px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 10px;
+    }
+    .header-title {
+      color: #FF9D10;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    .label {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18.2px;
+      color: black;
+      margin-top: 16px;
+    }
+    .input-box {
+      background: #FFDBA8;
+      border-radius: 50px;
+      padding: 4px;
+      margin-top: 4px;
+    }
+    .input-inner {
+      background: rgba(255, 247, 233, 0.56);
+      border-radius: 50px;
+      padding: 6px 12px;
+      color: rgba(119, 112, 103, 0.67);
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .dob, .menstrual {
+      display: flex;
+      gap: 8px;
+      margin-top: 4px;
+    }
+    .dob-box, .menstrual-box {
+      background: #FFDBA8;
+      border-radius: 1000px;
+      padding: 4px;
+    }
+    .dob-inner, .menstrual-inner {
+      background: rgba(255, 247, 233, 0.56);
+      border-radius: 50px;
+      padding: 4px 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: rgba(119, 112, 103, 0.67);
+    }
+    .note {
+      font-size: 10px;
+      color: rgba(119, 112, 103, 0.67);
+      margin-top: 8px;
+      line-height: 14px;
+    }
+    .button {
+      background: #FFC14D;
+      border-radius: 20px;
+      color: #B16700;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      padding: 8px;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-title">Personal information</div>
+    </div>
+
+    <div class="label">Nickname</div>
+    <div class="input-box">
+      <div class="input-inner">Write your nickname</div>
+    </div>
+
+    <div class="label">Username</div>
+    <div class="input-box">
+      <div class="input-inner">Write your username</div>
+    </div>
+
+    <div class="label">Date of birth</div>
+    <div class="dob">
+      <div class="dob-box"><div class="dob-inner">dd</div></div>
+      <div class="dob-box"><div class="dob-inner">mm</div></div>
+      <div class="dob-box"><div class="dob-inner">yyyy</div></div>
+    </div>
+
+    <div class="label">gender</div>
+    <div class="input-box">
+      <div class="input-inner">Female</div>
+    </div>
+
+    <div class="label">Date of last menstrual period</div>
+    <div class="menstrual">
+      <div class="menstrual-box"><div class="menstrual-inner">dd</div></div>
+      <div class="menstrual-box"><div class="menstrual-inner">mm</div></div>
+      <div class="menstrual-box"><div class="menstrual-inner">yyyy</div></div>
+    </div>
+    <div class="note">**This information will be used solely for assessing your mental health risk related to hormonal changes.**</div>
+
+    <div class="label">Congenital disease</div>
+    <div class="input-box">
+      <div class="input-inner">None</div>
+    </div>
+
+    <div class="label">Relationship status</div>
+    <div class="input-box">
+      <div class="input-inner">single</div>
+    </div>
+
+    <div class="label">Hormonal changes</div>
+    <div class="input-box">
+      <div class="input-inner">normal</div>
+    </div>
+
+    <div class="button">Next</div>
+  </div>
+</body>
+</html>

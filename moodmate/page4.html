@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: white;
+      font-family: 'Baloo Da 2', cursive;
+    }
+
+    .page-container {
+      width: 100%;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo-text {
+      margin-top: 80px;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 24px;
+      font-family: 'Mochiy Pop One', sans-serif;
+      line-height: 33.6px;
+    }
+
+    .mood {
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+
+    .m1, .e, .space { color: #4285F4; }
+    .o1 { color: #FF92BC; }
+    .o2 { color: #FFD483; }
+    .d  { color: #7ED7A1; }
+    .m2 { color: #F79EC0; }
+    .a  { color: #FBDA7D; }
+    .t  { color: #80D79B; }
+
+    .form-container {
+      width: 100%;
+      max-width: 327px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .title {
+      color: #FF93BC;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .subtitle {
+      color: #FF93BC;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .input-box {
+      background: white;
+      border: 1px solid #E0E0E0;
+      border-radius: 8px;
+      padding: 8px 16px;
+      width: 100%;
+      color: #828282;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22.4px;
+    }
+
+    .button {
+      background: #FF93BC;
+      border-radius: 8px;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22.4px;
+      cursor: pointer;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .line {
+      flex: 1;
+      height: 1px;
+      background: #E6E6E6;
+    }
+
+    .or-text {
+      color: #828282;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .social-btn {
+      background: #EEEEEE;
+      border-radius: 8px;
+      height: 40px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .social-text {
+      color: #FF93BC;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.6px;
+    }
+
+    .social-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+    <div class="logo-text">
+      <span class="mood m1">m</span>
+      <span class="mood o1">o</span>
+      <span class="mood o2">o</span>
+      <span class="mood d">d</span><br>
+      <span class="mood m2">m</span>
+      <span class="mood a">a</span>
+      <span class="mood t">t</span>
+      <span class="mood e">e</span>
+    </div>
+
+    <div class="form-container">
+      <div class="title">Create an account</div>
+      <div class="subtitle">Enter your email to Sign up for this app</div>
+
+      <div class="input-box">email@gmail.com</div>
+      <div class="input-box">password</div>
+
+      <div class="button">Continue</div>
+
+      <div class="divider">
+        <div class="line"></div>
+        <div class="or-text">or</div>
+        <div class="line"></div>
+      </div>
+
+      <div class="social-btn">
+        <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" />
+        <div class="social-text">Continue with Google</div>
+      </div>
+
+      <div class="social-btn">
+        <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple" />
+        <div class="social-text">Continue with Apple</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

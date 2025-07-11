@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=375, initial-scale=1.0" />
+  <title>Personal Information</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: white;
+      font-family: 'Baloo Da 2', sans-serif;
+      width: 375px;
+      height: 900px;
+      position: relative;
+    }
+
+    .section-title, .option, .next-text {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18.2px;
+      word-wrap: break-word;
+    }
+
+    .section-title {
+      color: black;
+    }
+
+    .option {
+      color: rgba(119, 112, 103, 0.67);
+      position: absolute;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .header {
+      background: #FFE7AD;
+      width: 375px;
+      height: 81px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .header-text {
+      position: absolute;
+      top: 53px;
+      left: 91px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #FF9D10;
+      line-height: 28px;
+    }
+
+    .input-box, .textarea-box {
+      position: absolute;
+      background: #FFDBA8;
+      border-radius: 20px;
+    }
+
+    .input-overlay {
+      position: absolute;
+      background: rgba(255, 247, 233, 0.56);
+      border-radius: 20px;
+    }
+
+    .next-button {
+      width: 321px;
+      height: 36px;
+      position: absolute;
+      top: 814px;
+      left: 29px;
+      background: #FFC14D;
+      border-radius: 20px;
+    }
+
+    .next-text {
+      position: absolute;
+      top: 823px;
+      left: 103px;
+      font-size: 16px;
+      color: #B16700;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header"></div>
+    <div class="header-text">Personal information</div>
+
+    <!-- Nickname -->
+    <div class="section-title" style="top: 112px; left: 23px; position: absolute;">Nickname</div>
+    <div class="input-box" style="width: 340px; height: 30px; top: 130px; left: 15px;"></div>
+    <div class="input-overlay" style="width: 325px; height: 22px; top: 134px; left: 23px;"></div>
+    <div class="option" style="top: 136px; left: 29px;">Write your nickname</div>
+
+    <!-- Username -->
+    <div class="section-title" style="top: 163px; left: 23px; position: absolute;">Username</div>
+    <div class="input-box" style="width: 340px; height: 30px; top: 181px; left: 15px;"></div>
+    <div class="input-overlay" style="width: 325px; height: 22px; top: 185px; left: 23px;"></div>
+    <div class="option" style="top: 187px; left: 29px;">Write your username</div>
+
+    <!-- Date of Birth -->
+    <div class="section-title" style="top: 212px; left: 23px; position: absolute;">Date of birth</div>
+    <div class="option" style="top: 234px; left: 34px;">dd</div>
+    <div class="option" style="top: 234px; left: 69px;">mm</div>
+    <div class="option" style="top: 234px; left: 117px;">yyyy</div>
+
+    <!-- Gender -->
+    <div class="section-title" style="top: 260px; left: 23px; position: absolute;">Gender</div>
+    <div class="input-box" style="width: 340px; height: 82px; top: 278px; left: 15px;"></div>
+    <div class="input-overlay" style="width: 325px; height: 73px; top: 282px; left: 23px;"></div>
+    <div class="option" style="top: 284px; left: 31px;">Prefer not to say</div>
+    <div class="option" style="top: 302px; left: 31px;">Male</div>
+    <div class="option" style="top: 320px; left: 31px;">Female</div>
+    <div class="option" style="top: 336px; left: 31px;">Non-binary / Genderqueer</div>
+
+    <!-- Disease -->
+    <div class="section-title" style="top: 363px; left: 23px; position: absolute;">Congenital disease</div>
+    <div class="input-box" style="width: 340px; height: 128px; top: 381px; left: 15px;"></div>
+    <div class="input-overlay" style="width: 325px; height: 117px; top: 387px; left: 23px;"></div>
+    <div class="option" style="top: 387px; left: 31px;">None</div>
+    <div class="option" style="top: 405px; left: 31px;">depressive disorder</div>
+    <div class="option" style="top: 423px; left: 31px;">Generalized anxiety disorder</div>
+    <div class="option" style="top: 441px; left: 31px;">Bipolar disorder</div>
+    <div class="option" style="top: 459px; left: 31px;">Obsessive-compulsive disorder</div>
+    <div class="option" style="top: 477px; left: 31px;">ADHD</div>
+
+    <!-- Relationship Status -->
+    <div class="section-title" style="top: 513px; left: 23px; position: absolute;">Relationship status</div>
+    <div class="input-box" style="width: 340px; height: 140px; top: 531px; left: 15px;"></div>
+    <div class="input-overlay" style="width: 325px; height: 130px; top: 537px; left: 23px;"></div>
+    <div class="option" style="top: 537px; left: 30px;">single</div>
+    <div class="option" style="top: 555px; left: 31px;">In a relationship</div>
+    <div class="option" style="top: 573px; left: 31px;">Married</div>
+    <div class="option" style="top: 591px; left: 31px;">Divorced</div>
+    <div class="option" style="top: 609px; left: 30px;">Widowed</div>
+    <div class="option" style="top: 627px; left: 31px;">Separated</div>
+    <div class="option" style="top: 645px; left: 31px;">Complicated</div>
+
+    <!-- Hormonal Changes -->
+    <div class="section-title" style="top: 671px; left: 24px; position: absolute;">Hormonal changes</div>
+    <div class="input-box" style="width: 340px; height: 103px; top: 689px; left: 16px;"></div>
+    <div class="input-overlay" style="width: 325px; height: 91px; top: 695px; left: 24px;"></div>
+    <div class="option" style="top: 695px; left: 31px;">normal</div>
+    <div class="option" style="top: 713px; left: 31px;">Pregnancy status</div>
+    <div class="option" style="top: 731px; left: 31px;">Menopause or perimenopause</div>
+    <div class="option" style="top: 750px; left: 31px;">Use of hormonal therapy</div>
+    <div class="option" style="top: 768px; left: 31px;">Recent hormonal fluctuations</div>
+
+    <!-- Next Button -->
+    <div class="next-button"></div>
+    <div class="next-text">Next</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Permission Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .page-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: white;
+      overflow: hidden;
+    }
+
+    .top-bar {
+      width: 375px;
+      height: 71px;
+      position: absolute;
+      top: 29px;
+      left: 0;
+      background: #FFEBCC;
+      border-bottom: 0.5px solid #E6E6E6;
+      overflow: hidden;
+    }
+
+    .top-bar-text {
+      position: absolute;
+      left: 52px;
+      top: 13px;
+      width: 336px;
+      height: 25px;
+      color: #FF9D10;
+      font-size: 16px;
+      font-family: 'Baloo Da 2', sans-serif;
+      font-weight: 600;
+      line-height: 22.4px;
+      word-wrap: break-word;
+    }
+
+    .back-icon {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 16px;
+      top: 24px;
+      background: #FF9D10;
+      border-radius: 3px;
+    }
+
+    .social-options {
+      position: absolute;
+      top: 134px;
+      left: 52px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .social-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .checkbox {
+      width: 20px;
+      height: 20px;
+      background: #D9D9D9;
+      border-radius: 5px;
+    }
+
+    .social-label {
+      font-size: 16px;
+      font-family: 'Baloo Da 2', sans-serif;
+      font-weight: 600;
+      line-height: 22.4px;
+      color: rgba(10.63, 9.81, 9.81, 0.92);
+    }
+
+    .confirm-container {
+      position: absolute;
+      top: 689px;
+      left: 0;
+      width: 375px;
+      height: 106px;
+      background: #FCFCFC;
+      border-radius: 20px;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .confirm-button {
+      width: 307px;
+      height: 50px;
+      position: absolute;
+      top: 39px;
+      left: 34px;
+      background: #FF9D10;
+      border-radius: 20px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .confirm-text {
+      position: absolute;
+      top: 14px;
+      left: 110px;
+      font-size: 20px;
+      font-family: 'Baloo Da 2', sans-serif;
+      font-weight: 600;
+      line-height: 28px;
+      color: white;
+    }
+
+    .confirm-thai {
+      position: absolute;
+      top: 737px;
+      left: 162px;
+      font-size: 20px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      line-height: 28px;
+      color: #FCFCFC;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+    <div class="top-bar">
+      <div class="back-icon"></div>
+      <div class="top-bar-text">Request for permission to access the application</div>
+    </div>
+
+    <div class="social-options">
+      <div class="social-option">
+        <div class="checkbox"></div>
+        <div class="social-label">Instagram</div>
+      </div>
+      <div class="social-option">
+        <div class="checkbox"></div>
+        <div class="social-label">Tiktok</div>
+      </div>
+      <div class="social-option">
+        <div class="checkbox"></div>
+        <div class="social-label">Facebook</div>
+      </div>
+      <div class="social-option">
+        <div class="checkbox"></div>
+        <div class="social-label">Youtube</div>
+      </div>
+      <div class="social-option">
+        <div class="checkbox"></div>
+        <div class="social-label">X</div>
+      </div>
+    </div>
+
+    <div class="confirm-container">
+      <div class="confirm-button">
+        <div class="confirm-text">confirm</div>
+      </div>
+    </div>
+
+    <div class="confirm-thai">ยืนยัน</div>
+  </div>
+</body>
+</html>
